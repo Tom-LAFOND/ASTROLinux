@@ -4,7 +4,7 @@
 ### It is a Bash script which, executed in a terminal, download, install and configure a multitude of selected scientific software.
 (See Installation)
 
-![logo-astrolinux](image.png "Le titre de mon image")
+![logo-astrolinux](https://github.com/Tom-LAFOND/ASTROLinux/blob/main/logo-Astrolinux.png)
 
 ## How to use the script?
 The script currently only works on distributions based on the Debian distribution
