@@ -17,7 +17,7 @@ The script requires around 10GB of disk space to install a complete scientific e
 Once you've freshly installed the linux distribution you want, you can run the script:  
 First, download the zipped file from Github. After unzipping it to a folder, open a terminal in the folder (right-click "open terminal here")
 then type  
-`sudo ./config-astro.sh`
+`sudo ./config-astro--english.sh`
 
 Read the information displayed carefully.
 The script begins by listing the updates available for your system, and asks if you wish to perform the updates. If so, type "y" and press "enter". If not, type "N" and press "enter".
@@ -105,7 +105,7 @@ Le script requiert environ 10Go d'espace disque pour procéder à l'installation
 
 Premièrement, téléchargez le fichier zippé sur Github. Après l'avoir dézippé dans un dossier, ouvrez un terminal dans le dossier (clic droit "ouvrir un terminal ici")
 puis, tapez 
->`sudo ./config-astro.sh`
+>`sudo ./config-astro--french.sh`
 
 Lisez attentivement les informations qui s'affichent.
 Le script commence par lister les mises à jour disponibles pour votre système et vous demande si vous souhaitez faire les mises à jour. Si c'est le cas, tapez "y" puis appuyez sur "entrée". Sinon, tapez "N".
