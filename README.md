@@ -1,3 +1,5 @@
+[The script is under development]
+
 # What is ASTROLinux?
 
 ### The idea of ​​the ASTROLinux project is to create a script allowing you to configure a Linux operating system specifically for research in astrophysics/cosmology. This script is therefore primarily aimed at professional researchers and physics students. 
