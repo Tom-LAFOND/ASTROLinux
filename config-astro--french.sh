@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 # Version 1.0
 # French version
+# DEVELOPMENT VERSION
 
 LOGFILE="/tmp/config-astro.log"
 echo "Vous pouvez suivre l'avancement du script depuis ce fichier log" >> "$LOGFILE" 2>&1
