@@ -1,7 +1,6 @@
 #! /usr/bin/env bash
 # Version 1.0
 # French version
-# DEVELOPMENT VERSION
 
 LOGFILE="/tmp/config-astro.log"
 echo "Vous pouvez suivre l'avancement du script depuis ce fichier log" >> "$LOGFILE" 2>&1
@@ -137,7 +136,7 @@ case "$ask_devenv" in
 
     echo "Création d'un environnement virtuel pour python..." ;
     pyenv virtualenv 3.12.3 env-3-12 ;
-    source .pyenv/versions/env-3-12/bin/activate ;
+    source ~/.pyenv/versions/env-3-12/bin/activate ;
 
     # installation paquets python pour la science
     echo "Installation des bibliothèques python sélectionnées pour la science..." ;
@@ -265,7 +264,7 @@ echo -e '\033[0;35m'
 echo "5/ CONFIGURATION FINALE ET NETTOYAGE DU SYSTEME..."
 echo -e '\033[0;0m'
 echo "Création d'un alias pour activer l'environnement virtuel python..."
-echo 'alias virtualenv="source .pyenv/versions/env-3-12/bin/activate"' >> ~/.bashrc ;
+echo 'alias virtualenv="source ~/.pyenv/versions/env-3-12/bin/activate"' >> ~/.bashrc ;
 sudo apt clean >> "$LOGFILE" 2>&1
 sudo apt autoremove -y >> "$LOGFILE" 2>&1
 echo ""
