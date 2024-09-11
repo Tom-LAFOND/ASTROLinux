@@ -1,4 +1,4 @@
-[The script is under development]
+**[The script is under development]**
 
 # What is ASTROLinux?
 
